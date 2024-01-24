@@ -1,9 +1,11 @@
-# ZORK!
+# Zork!
 
 
 1. http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq
 
-2. Required functions
+### Parsing User Input
+
+Parsing means to take in a string and break it into smaller parts according to the grammar of the language. In Zork, the language consists of verbs and objects.
 
 ```python
 def parse_input(str):
@@ -35,7 +37,14 @@ Returns:
 [("OPEN", "DOOR")]
 ```
 
-If the input string is malformed in any way, the parser should return a single 2-tuple indicating the string could not be parsed.
+If the input string has a malformed VERB, the parser should return a single 2-tuple indicating the string could not be parsed.
+
+```
+Input:
+pcik up sword
+Returns:
+[("ERROR", "pcik up sword")]
+```
 
 ```
 Input:
@@ -46,9 +55,17 @@ Returns:
 
 ```
 Input:
-go west, go esat
+go west, og east, fly away
 Returns:
-[("ERROR", "go west, go esat")]
+[("ERROR", "go west, og east", fly away)]
+
+There's no need to check the OBJECTs make sense in the parser.
+
+```
+Input:
+go into the sky
+Returns
+[("MOVE", "INTO THE SKY")]
 ```
 
 - print_cell()
