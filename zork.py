@@ -40,9 +40,8 @@ def print_cell(row, col):
     print("\n>", end="")
 
 def process_commands():
-    str = input()
-    cmds = parse_input(str)
     # your code here
+    pass
 
 def parse_input(str):
     # your code here
