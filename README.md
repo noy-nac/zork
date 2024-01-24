@@ -10,7 +10,7 @@ def parse_input(str):
     # your code here
 ```
 
-`parse_input` takes in a string written by the user and returns a list of 2-tuples. The input string is made up of commands in the form of a ==VERB== plus an ==OBJECT==, **for example** =="move west"==. The input string might contain more than one command, in which case a ==COMMA== will separate each command, **for example** =="move west, pick up sword"==.
+`parse_input` takes in a string written by the user and returns a list of 2-tuples. The input string is made up of commands in the form of a ==VERB== plus an <mark>OBJECT</mark>, **for example** <mark>"move west"</mark>. The input string might contain more than one command, in which case a <mark>COMMA</mark> will separate each command, **for example** <mark>"move west, pick up sword"</mark>.
 
 # Input:
 # move west
