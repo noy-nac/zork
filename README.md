@@ -1,7 +1,26 @@
 # Zork!
 
+## Play Zork
+http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq
 
-1. http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq
+## Background
+
+## 
+
+## Provided Functions
+ - game_loop()
+
+## Required Functions
+ - print_cell(x, y)
+ - parse_input(str)
+ - move(dx, dy)
+
+### Printing Cells
+
+```python
+def print_cell(x, y):
+    ...
+```
 
 ### Parsing User Input
 
@@ -9,7 +28,7 @@ Parsing means to take in a string and break it into smaller parts according to t
 
 ```python
 def parse_input(str):
-    # your code here
+    ...
 ```
 
 `parse_input` takes in a string written by the user and returns a list of 2-tuples. The input string is made up of commands in the form of a VERB plus an OBJECT, **for example "move west".** The input string might contain more than one command, in which case a COMMA will separate each command, **for example "move west, pick up sword".**
@@ -58,6 +77,7 @@ Input:
 go west, og east, fly away
 Returns:
 [("ERROR", "go west, og east", fly away)]
+```
 
 There's no need to check the OBJECTs make sense in the parser.
 
