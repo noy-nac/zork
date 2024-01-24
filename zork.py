@@ -1,5 +1,4 @@
 
-
 cell_name = [
     ["","","",""],
     ["","","West of House",""],
@@ -24,30 +23,27 @@ cell_invent = [
     ["","","",""],
 ]
 
-x_pos = 2 # row
-y_pos = 1 # col
+player_row = 1
+player_col = 2
 
 def game_loop(): 
     while True:
-        print_cell(x_pos, y_pos)
+        print_cell(player_row, player_col)
         process_commands()
 
-def print_cell(x, y):
-    print(cell_name[x][y], end="\n")
-    print(cell_desc[x][y], end="\n")
+def print_cell(row, col):
+    print(cell_name[row][col], end="\n")
+    print(cell_desc[row][col], end="\n")
+
+    print("\n>", end="")
 
 def process_commands():
     str = input()
-    commands = parse_input(str)
+    cmds = parse_input(str)
     # complete this function
 
 def parse_input(str):
-
-
-def read_input():
-    string = input()
-
-
+    pass
 
 def move_player(dx, dy):
     pass

@@ -5,7 +5,22 @@ http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq
 
 ## Background
 
-## 
+Internally, Zork uses a 2D array 
+
+## Minimum Requirements
+ - 10 open cells
+    - Each cell should have a 
+ 
+ - 4 internal walls, it's not possible to move through walls
+    - Option 1. Create walls between cells. For example
+    - Option 2. Create cells that are walls and cannot be moved to
+  
+ - Moving off the edge of the world:
+    - Option 1. Treat any attempt to move outside the 2D array as an attempt to move through a wall
+    - Option 2. Wrap the grid so that moving off the edge of the 2D array puts the player on the opposite edge.
+
+ - Pick up and drop items
+
 
 ## Provided Functions
  - game_loop()
