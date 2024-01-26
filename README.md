@@ -1,7 +1,6 @@
 # Zork!
 
-## Play Zork
-http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq
+> ## Link: [Play Zork](http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq)
 
 ## Background
 Internally, Zork uses a 2D array for the player to move through the world. Moving NORTH takes the player from their current cell to the same cell in the row above, moving SOUTH takes the player to the same cell in the row below, moving EAST takes the player to the next cell to the right, and moving WEST takes the player to the previous cell to the left.
@@ -40,7 +39,17 @@ Internally, Zork uses a 2D array for the player to move through the world. Movin
  - `print_cell(row, col)`
     - Prints the information associated with the cell at row, col for the player
     - Include the cell name, description, and any present items
- - `process_command()`
+
+For example:
+```
+== West of House ==
+This is an open field west of a white house, with a boarded front door.
+There is a small mailbox here.
+
+>
+```
+
+ - `process_commandS()`
     - Reads in the user input, decodes it, and decides which function to call
  - `move_player(delta_row, delta_col)`
     - `delta_row` and `delta_col` mean the difference between the previous cell and the new cell's row and col values
@@ -55,10 +64,3 @@ Internally, Zork uses a 2D array for the player to move through the world. Movin
     - First check that `item` is presnet in the player's inventory
     - Then add the item to the current cell
     - Finally remove the item from the player's inventory
-
-### Printing Cells
-
-```python
-def print_cell(x, y):
-    ...
-```
