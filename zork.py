@@ -1,66 +1,20 @@
 
-cell_name = [
-    ["","","",""],
-    ["","","West of House",""],
-    ["","","",""],
-    ["","","",""],
-    ["","","",""],
-]
-
-cell_desc = [
-    ["","","",""],
-    ["","","",""],
-    ["","","",""],
-    ["","","",""],
-    ["","","",""],
-]
-
-cell_invent = [
-    ["","","",""],
-    ["","","",""],
-    ["","","",""],
-    ["","","",""],
-    ["","","",""],
-]
-
-player_row = 1
-player_col = 2
-
 # Runs the game
 def game_loop(): 
     while True:
-        print_cell(player_row, player_col)
-        process_commands()
+        # TODO call specific game mechanic functions here
+        pass
 
 # Prints the information associated with the cell at row, col for use by the player
 def print_cell(row, col):
-    print(cell_name[row][col], end="\n")
-    print(cell_desc[row][col], end="\n")
+    # TODO implement the print_cell function
+    pass
 
-    print("\n>", end="")
-
+# Reads user input and call the function associated with their input
 def process_commands():
-    # your code here
+    # TODO implement the process_commands function
     pass
 
-def parse_input(str):
-    # your code here
-    pass
-
-def move_player(delta_row, delta_col):
-    # your code here
-    pass
-
-def pickup(item):
-    # your code here
-    pass
-
-def drop(item):
-    # your code here
-    pass
-
-def final_boss():
-    # your code here
-    pass
+# TODO implement additional functions
 
 game_loop()
