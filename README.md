@@ -1,7 +1,8 @@
 # Zork!
 
 > ## Link: [Play Zork (1977)](http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq)
-> > [Walkthrough](https://web.mit.edu/marleigh/www/portfolio/Files/zork/transcript.html)
+> > [Walkthrough 1](https://web.mit.edu/marleigh/www/portfolio/Files/zork/transcript.html)
+> > [Walkthrough 2](http://www.eristic.net/games/infocom/zork1.html)
 
 > ## Link: [Play Zork II (1981)](https://playclassic.games/games/adventure-dos-games-online/play-zork-ii-wizard-frobozz-online/play/)
 
