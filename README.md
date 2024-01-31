@@ -1,11 +1,14 @@
 # Zork!
 
 > ## Link: [Play Zork (1977)](http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq)
+> > [Walkthrough](https://web.mit.edu/marleigh/www/portfolio/Files/zork/transcript.html)
 
 > ## Link: [Play Zork II (1981)](https://playclassic.games/games/adventure-dos-games-online/play-zork-ii-wizard-frobozz-online/play/)
 
 ## Background
 Internally, Zork uses a 2D array for the player to move through the world. Moving NORTH takes the player from their current cell to the same cell in the row above, moving SOUTH takes the player to the same cell in the row below, moving EAST takes the player to the next cell to the right, and moving WEST takes the player to the previous cell to the left.
+
+The original Zork is set in a fantasy world, but you can make whatever world you want. It could be your house, the school, your neighborhood, Mars, underwater, etc.
 
 ## Minimum Requirements
  - Create 2D lists to represent information about 
