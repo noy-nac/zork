@@ -1,8 +1,11 @@
 # Zork!
 
 > ## Link: [Play Zork (1977)](http://textadventures.co.uk/games/play/5zyoqrsugeopel3ffhz_vq)
+> ## Link: [Play Zork (1977)](https://playclassic.games/games/adventure-dos-games-online/play-zork-great-underground-empire-online/play/)
+> ## Link: [Play Zork (1977)](https://www.pcjs.org/software/pcx86/game/infocom/zork1/)
 > > [Walkthrough 1](https://web.mit.edu/marleigh/www/portfolio/Files/zork/transcript.html)
 > > [Walkthrough 2](http://www.eristic.net/games/infocom/zork1.html)
+> If you get webfiltered, Google until you find one that works
 
 > ## Link: [Play Zork II (1981)](https://playclassic.games/games/adventure-dos-games-online/play-zork-ii-wizard-frobozz-online/play/)
 
@@ -69,3 +72,6 @@ There is a small mailbox here.
     - First check that `item` is presnet in the player's inventory
     - Then add the item to the current cell
     - Finally remove the item from the player's inventory
+
+## Map of Zork
+![image](./map.jpg)
